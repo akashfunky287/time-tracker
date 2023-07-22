@@ -17,7 +17,9 @@ import training.taylor.timetracker.core.dao.TimeEntry;
 public class TrackerTest {
     @Autowired
     private Tracker tracker;
-
+    
+    print int salary;
+    
     @Test
     public void testMe() {
         assertNotNull(tracker);
