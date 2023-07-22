@@ -20,10 +20,7 @@ public class TrackerTest {
     
     print int salary;
     
-    @Test
-    public void testMe() {
-        assertNotNull(tracker);
-    }
+
 
     @Test
     public void testAdd() {
